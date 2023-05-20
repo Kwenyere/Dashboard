@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:whitesmoke;
+}
+
+.container{
+    display: flex;
+}
+
+#db_sidebar{
+    background-image: url(images/pexels-elijah-akala-2291427.jpg);
+    background-color: #F45050;
+    background-blend-mode:color-dodge;
+    height: 100vh;
+    width: 13vw;
+    color: aliceblue;
+}
+
+.db_title{
+    display: flex;
+    margin-left: 1vw;
+    gap: 10px;
+    margin-top: 2vw;
+}
+
+.logo{
+    background-color: #fff;
+    color: #F45050;
+    border-radius: 50%;
+    width: 2vw;
+    text-align: center;
+}
+
+.paul-section{
+    display: flex;
+}
+
+.paul-name{
+    margin-top: 2.5vw;
+    margin-left: 1vw;
+}
+
+#db_pics{
+    width: 3vw;
+    height: 7vh;
+    border-radius: 50%;
+    margin-top: 2vw;
+    margin-left: 1vw;
+}
+
+.db_name{
+    color:aquamarine;
+}
+
+.non-select{
+    margin-left: 1vw;
+}
+
+ul{
+    text-decoration: none;
+    margin-top: 2vw;
+}
+
+li{
+    list-style: none;
+    margin-top: 2vw;
+    margin-left: 1vw;
+}
+
+select{
+    background-color: #F45050;
+    color: aliceblue;
+    border: none;
+}
+
+hr{
+    height: 1px;
+    border: none;
+    background-color: aliceblue;
+    opacity: 0.5;
+    margin-top: 1vw;
+}
+
+.statistics{
+    background-color: #fff;
+    width: 20vw;
+    height: 23vh;
+}
+
+#stat{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5vw;
+    margin-left: 2vw;
+    gap: 15px;
+}
+
+.stat_icon{
+    height: 10vh;
+    width: 5vw;
+    text-align: center;
+    color: #fff;
+    margin-left: 1vw;
+    position: relative;
+    bottom:  15px;
+}
+
+.icon{
+    margin-top: 2vw;
+}
+
+.book{
+    background-color: #FF6000;
+}
+
+.bar-chart{
+    background-color: #EA047E;
+}
+
+.university{
+    background-color:green;
+}
+
+.twitter{
+    background-color: #3A98B9;
+}
+
+.stat-text{
+    margin-left: 15vw;
+}
+
+.stat-hr{
+    background-color: grey;
+    opacity: 0.5;
+}
+
+.list-features{
+    margin-top: 5vw;
+}
+
+.feature-title{
+    font-size: 1.5rem;
+    margin-left: 5vw;
+    color: gray;
+}
+
+.Features-section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 3vw;
+}
+
+.Feature{
+    width: 25vw;
+    height: 45vh;
+    color: gray;
+    background-color: #fff;
+    position: relative;
+}
+
+.feature-image{
+    width: 20vw;
+    height: 30vh;
+    display: block;
+    margin: auto;
+    position: relative;
+    bottom: 15px;
+}
+
+.feature-text{
+    text-align: center;
+    margin-top: 1vw;
+}
+
+.feature-footer{
+    display: flex;
+    gap: 9vw;
+    margin-top: 1vw;
+    margin-left: 1vw;
+}
